@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-react-performance-check",
+  "version": "0.0.1",
+  "description": "check react performance problems",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Stone",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0",
+    "@babel/traverse": "^7.7.4",
+    "eslint-plugin-react-native-globals": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
